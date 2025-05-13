@@ -19,6 +19,12 @@ you to create a CPAN distribution for deploying your plugin.
 * `CPAN::Maker`
 * `Module::ScanDeps::Static`
 
+You can install Bedrock from the offical Bedrock CPAN repository.
+
+```
+export PERL_CPANM_OPT="--mirror-only --mirror https://cpan.openbedrock.net/orepan2 --mirror https://cpan.metacpan.org"
+```
+
 # Quickstart
 
 ```
